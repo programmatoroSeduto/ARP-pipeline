@@ -1,0 +1,7 @@
+my_IP 127.0.0.1
+my_portno 5080
+next_IP 128.0.0.2
+next_portno 5080
+RFvalue 1
+waiting_time 500
+log_path "./logfile.txt"

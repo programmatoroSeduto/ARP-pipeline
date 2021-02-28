@@ -1,0 +1,8 @@
+#! /bin/bash
+
+gcc -c loglist.c
+gcc -c main.c
+
+gcc main.o loglist.o -o loglist-test
+
+rm main.o loglist.o

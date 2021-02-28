@@ -1,0 +1,4 @@
+#! /bin/bash
+
+gcc P_fake.c -o P_fake
+gcc L.c -o Lproc
