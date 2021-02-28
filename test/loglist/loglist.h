@@ -30,7 +30,19 @@ typedef struct
 }
 loglist_t;
 
-// inizializzazione della lista
+// aggiungi un elemento alla lista (nessuno spostamento del cursore)
 int loglist_init( loglist_t* list );
+
+// aggiungi un elemento alla lista
+int loglist_add( loglist_t* list, struct Lproc_message_t* elem );
+
+// scorri il puntatore una posizione avanti
+int loglist_next( loglist_t* list );
+
+// puntatore all'inizio della lista
+int loglist_goto_start( loglist_t* list );
+
+// ritorna il puntatore all'elemento attuale
+struct Lproc_message_t* loglist_get( loglist_t* list );
 
 #endif

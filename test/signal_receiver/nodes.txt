@@ -1,0 +1,5 @@
+inviare un segnale ad un programma:
+
+kill -s SIGCONT pid
+kill -s SIGSTOP pid
+kill -s SIGUSR1 pid
